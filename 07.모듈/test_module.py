@@ -8,3 +8,11 @@ def get_circumference(radius):
 
 def get_area(radius):
     return PI * radius ** 2
+
+def print_name():
+    print('__name__')
+
+# python test_module.py 와 같이 돌릴 경우에는 아래 코드가 실행됨
+if __name__ == '__main__':
+    print('원의 반지름: 10')
+    print(f'둘레: {get_circumference(10):.4f}, 면적: {get_area(10):.4f}')
