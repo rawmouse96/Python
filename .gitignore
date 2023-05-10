@@ -2,6 +2,7 @@
 password.txt
 test.py
 test.ipynb
+doorlock.py
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
 
